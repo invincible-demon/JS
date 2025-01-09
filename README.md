@@ -1,2 +1,2 @@
 # JS
-A repo fro my JS theory
+A repo for my JS theory
