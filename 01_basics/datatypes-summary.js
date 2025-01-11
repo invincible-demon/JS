@@ -35,3 +35,19 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\\
+
+let A=45;
+
+B=A;
+let B=50;
+
+let userone = {
+    gmail : "abc@gnail.com"
+}
+let usertwo=userone 
+
+//stack memory:-create a copy so if we changevalue of B then a value will not be change
+//heap memory:-provide refrence in memory so if we change a value for userone also changes for usertwo
