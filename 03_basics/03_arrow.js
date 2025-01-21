@@ -23,12 +23,12 @@ const user = {
 // chai()
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "Ashish"
 //     console.log(this.username);
 // }
 
 const chai =  () => {
-    let username = "hitesh"
+    let username = "Ashish"
     console.log(this);
 }
 
@@ -43,7 +43,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "Ashish"})
 
 
 console.log(addTwo(3, 4))
