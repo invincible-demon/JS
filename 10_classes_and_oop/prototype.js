@@ -16,12 +16,12 @@ let heroPower = {
     }
 }
 
-Object.prototype.hitesh = function(){
-    console.log(`hitesh is present in all objects`);
+Object.prototype.Ashish = function(){
+    console.log(`Ashish is present in all objects`);
 }
 
-Array.prototype.heyHitesh = function(){
-    console.log(`Hitesh says hello`);
+Array.prototype.heyAshish = function(){
+    console.log(`Ashish says hello`);
 }
 
 // heroPower.hitesh()
@@ -63,5 +63,5 @@ String.prototype.trueLength = function(){
 }
 
 anotherUsername.trueLength()
-"hitesh".trueLength()
+"Ashish".trueLength()
 "iceTea".trueLength()
